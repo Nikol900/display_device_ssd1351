@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2577910567</fileChecksum>
+  <configuration>
+    <name>STM32F405RG</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_usart.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_tim.c</file>
+      <file>$PROJ_DIR$\..\Display\fonts\font_4_underlined.c</file>
+      <file>$PROJ_DIR$\..\Libs\Basic\crc16.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_iwdg.c</file>
+      <file>$PROJ_DIR$\..\STMlib\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c</file>
+      <file>$PROJ_DIR$\..\Display\display.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_rcc.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_rtc.c</file>
+      <file>$PROJ_DIR$\..\Display\fonts\font_5_underlined.c</file>
+      <file>$PROJ_DIR$\..\Interface\buttons.c</file>
+      <file>$PROJ_DIR$\..\Display\fonts\font_5_normal.c</file>
+      <file>$PROJ_DIR$\..\Display\fonts\font_6_underlined.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\misc.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_syscfg.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_wwdg.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_spi.c</file>
+      <file>$PROJ_DIR$\..\Display\fonts\font_6_normal.c</file>
+      <file>$PROJ_DIR$\..\Display\ssd1351.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_flash.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_pwr.c</file>
+      <file>$PROJ_DIR$\..\Display\fonts\font_4_normal.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_exti.c</file>
+      <file>$PROJ_DIR$\..\Interface\communication_protocol.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_adc.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_fsmc.c</file>
+      <file>$PROJ_DIR$\..\STMlib\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f4xx.s</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_dma.c</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_dma.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_6_underlined.pbi</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_flash.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_5_underlined.o</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_cryp.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_spi.o</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_usart.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_iwdg.pbi</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_syscfg.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\communication_protocol.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_pwr.pbi</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_spi.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_wwdg.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_wwdg.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_fsmc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\buttons.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_4_normal.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_usart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_4_underlined.o</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_rng.h</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_tim.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmSimd.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_syscfg.o</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_exti.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\ssd1351.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\process_handler.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_wwdg.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\crc16.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_it.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_adc.o</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_iwdg.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\buttons.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_flash.pbi</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_sdio.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\init.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_5_normal.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_it.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_exti.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_tim.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_6_normal.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_rcc.o</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_i2c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\system_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_tim.o</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_dac.h</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_rcc.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_pwr.o</file>
+      <file>$PROJ_DIR$\..\..\Out\DOTS.display.hex</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\ssd1351.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_iwdg.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_flash.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_gpio.o</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_can.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_usart.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_syscfg.pbi</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_pwr.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_6_normal.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_spi.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\stm32f4xx_conf.h</file>
+      <file>$PROJ_DIR$\..\init.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Exe\Project.out</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_dma.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\startup_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\process_handler.c</file>
+      <file>$PROJ_DIR$\..\stm32f4xx_it.c</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\display.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_dma.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_rtc.o</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_gpio.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_fsmc.pbi</file>
+      <file>$PROJ_DIR$\..\STMlib\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_4_underlined.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_6_underlined.o</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_dcmi.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\main.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\misc.o</file>
+      <file>$PROJ_DIR$\..\analog_data.c</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_fsmc.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\process_handler.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_crc.h</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\misc.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_exti.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\crc16.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_5_normal.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\display.pbd</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_adc.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_rtc.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_4_normal.pbi</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_dbgmcu.h</file>
+      <file>$PROJ_DIR$\..\STMlib\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\analog_data.pbi</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_hash.h</file>
+      <file>$PROJ_DIR$\..\STMlib\StdPeriphDriver\inc\stm32f4xx_rtc.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\system_stm32f4xx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\communication_protocol.o</file>
+      <file>$PROJ_DIR$\..\Display\fonts.h</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\init.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\font_5_underlined.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\analog_data.o</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\stm32f4xx_adc.pbi</file>
+      <file>$PROJ_DIR$\STM32F405RG\Obj\display.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Display\fonts\font_4_underlined.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 140 102 52 142 47 94 63 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Libs\Basic\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_iwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 29 135 115 80 96 100 37 102 63 33 137 69 93 47 94 45 51 124 91 134 31 79 54 38 126 42 56 140 52 131 125 83 118 58 46 113 66 84 138 41 55 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Display\display.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Display\fonts\font_5_underlined.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Interface\buttons.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Display\fonts\font_5_normal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Display\fonts\font_6_underlined.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_wwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Display\fonts\font_6_normal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Display\ssd1351.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Display\fonts\font_4_normal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 140 102 52 142 47 94 63 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_exti.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Interface\communication_protocol.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_fsmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\CMSIS\Device\ST\STM32F4xx\Source\Templates\iar\startup_stm32f4xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STMlib\StdPeriphDriver\src\stm32f4xx_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\STM32F405RG\Exe\Project.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\process_handler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\stm32f4xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\analog_data.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+
